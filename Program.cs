@@ -9,7 +9,7 @@ namespace ADOExamples
 
         static void Main(string[] args)
         {
-            var repo = new EmployeeRepository();
+            var repo = new EmployeeRepositoryADO();
             var employees = repo.AllByLastname("e");
             foreach (var item in employees)
             {

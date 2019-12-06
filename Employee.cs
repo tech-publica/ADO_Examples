@@ -2,9 +2,6 @@ using System;
 
 public class Employee
 {
-
-
-
     public int Empid { get; set; }
     public string FirstName { get; set; }
     public string LastName { get; set; }
@@ -19,7 +16,7 @@ public class Employee
     public string Country { get; set; }
     public string Phone { get; set; }
     public int? ManagerId { get; set; }
-
-
+    public decimal Salary { get; set; }
+    public string Sex {get; set;}
 
 }
